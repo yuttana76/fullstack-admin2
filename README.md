@@ -42,3 +42,7 @@ Inter
 DB. diagram
 https://lucid.app/
 https://lucid.app/lucidchart/db1585d8-82c5-422f-9e9c-7d37c776378c/view?invitationId=inv_38fb3c44-89e2-4e9f-9041-054821d53688&page=0_0#
+
+
+Geography
+https://nivo.rocks/choropleth/
