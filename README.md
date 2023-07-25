@@ -49,3 +49,5 @@ https://lucid.app/lucidchart/db1585d8-82c5-422f-9e9c-7d37c776378c/view?invitatio
 
 Geography
 https://nivo.rocks/choropleth/
+
+STEP1.
