@@ -19,6 +19,12 @@ const UserSchema = new mongoose.Schema(
       required: true,
       min: 5,
     },
+    permissionLevel: {
+      type: Number
+    },
+    profileImg: {
+      type: String
+    },
     city: String,
     state: String,
     country: String,

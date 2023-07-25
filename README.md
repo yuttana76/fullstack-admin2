@@ -51,6 +51,16 @@ Geography
 https://nivo.rocks/choropleth/
 
 
+##Upload files/
+https://morioh.com/p/5c99be0fb5aa
+
+
+##Production Best Practices: Security
+https://expressjs.com/en/advanced/best-practice-security.html
+
+DOING!
+https://www.toptal.com/nodejs/secure-rest-api-in-nodejs
+https://www.toptal.com/nodejs/secure-rest-api-in-nodejs
 
 ##Deploy to render.com
 by google account
