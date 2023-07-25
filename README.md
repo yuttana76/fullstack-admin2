@@ -50,8 +50,13 @@ https://lucid.app/lucidchart/db1585d8-82c5-422f-9e9c-7d37c776378c/view?invitatio
 Geography
 https://nivo.rocks/choropleth/
 
-STEP1.
 
-STEP2.
 
-STEP3.
+##Deploy to render.com
+by google account
+
+backend:
+https://fullstack-admin-backend-galt.onrender.com
+
+Frontend
+https://fullstack-admin-frontend-lhi1.onrender.com
