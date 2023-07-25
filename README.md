@@ -23,6 +23,9 @@ Password :abc123456
 filter
 {_id:ObjectId('63701cc1f03239b7f700000e')}
 
+##mongo aggregate
+https://www.mongodb.com/docs/manual/aggregation/
+
 
 >
 Client <react>
