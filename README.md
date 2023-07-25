@@ -51,3 +51,5 @@ Geography
 https://nivo.rocks/choropleth/
 
 STEP1.
+
+STEP2.
