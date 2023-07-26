@@ -1,5 +1,5 @@
 import express  from "express";
-import { userProfile} from "../controllers/user.js";
+import { userProfile,createUser,getById,getAll,patchUser,removeById } from "../controllers/user.js";
 import multer  from "multer"
 import { v4 as uuidv4 } from 'uuid';
 
@@ -29,7 +29,12 @@ var upload = multer({
     }
 });
 
-
 router.post("/user-profile", upload.single('profileImg'), userProfile);
+router.post("/adduser", upload.single('profileImg'), createUser);
+router.get("/all",  getAll);
 
+// At the buttom
+router.get("/:userId",  getById);
+router.patch("/:userId",  patchUser );
+router.delete("/:userId",  removeById );
 export default router;

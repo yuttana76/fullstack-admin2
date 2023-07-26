@@ -60,7 +60,8 @@ https://expressjs.com/en/advanced/best-practice-security.html
 
 DOING!
 https://www.toptal.com/nodejs/secure-rest-api-in-nodejs
-https://www.toptal.com/nodejs/secure-rest-api-in-nodejs
+https://github.com/makinhs/rest-api-tutorial/tree/master/users
+
 
 ##Deploy to render.com
 by google account

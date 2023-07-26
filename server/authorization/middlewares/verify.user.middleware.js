@@ -1,5 +1,29 @@
-exports.isPasswordAndUserMatch = (req, res, next) => {
-    UserModel.findByEmail(req.body.email)
+import User from "../models/User.js";
+
+export const hasAuthValidFields = (req, res, next) => {
+    let errors = [];
+
+    if (req.body) {
+        if (!req.body.email) {
+            errors.push('Missing email field');
+        }
+        if (!req.body.password) {
+            errors.push('Missing password field');
+        }
+
+        if (errors.length) {
+            return res.status(400).send({errors: errors.join(',')});
+        } else {
+            return next();
+        }
+    } else {
+        return res.status(400).send({errors: 'Missing email and password fields'});
+    }
+};
+
+
+export const isPasswordAndUserMatch = (req, res, next) => {
+    User.find({email: email})(req.body.email)
         .then((user)=>{
             if(!user[0]){
                 res.status(404).send({});
