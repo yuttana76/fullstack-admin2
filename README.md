@@ -70,3 +70,18 @@ https://fullstack-admin-backend-galt.onrender.com
 
 Frontend
 https://fullstack-admin-frontend-lhi1.onrender.com
+
+
+#DOCKER ->AWS ECR
+https://www.youtube.com/watch?v=SZOMHHGsATw
+
+##build docker container
+>docker build --no-cache . -t fullstackadmin/node-docker
+>docker run -p 5001:5001 -d fullstackadmin/node-docker
+>docker ps -a  
+>docker logs <short id>  
+>docker exec -it <short id> sh
+>docker stop <short id>
+
+
+##Create AWS ECR
