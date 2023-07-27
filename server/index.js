@@ -10,7 +10,9 @@ import generalRoutes from "./routes/general.js";
 import managementRoutes from "./routes/management.js";
 import salesRoutes from "./routes/sales.js";
 import usersRoutes from "./routes/user.js";
-import authRoutes from "./routes/auth.js";
+import reportsRoutes from "./routes/reports.js";
+// import authRoutes from "./routes/auth.js";
+
 
 import logger from "./logger.js";
 
@@ -34,13 +36,16 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors());
 
+// app.set('view engine', 'ejs');
+
 // ROUTES
 app.use("/client", clientRoutes);
 app.use("/general", generalRoutes);
 app.use("/management", managementRoutes);
 app.use("/sales", salesRoutes);
 app.use("/users", usersRoutes);
-app.use("/auth", authRoutes);
+app.use("/reports", reportsRoutes);
+// app.use("/auth", authRoutes);
 
 // MONGOOSE SETUP
 const PORT = process.env.PORT || 9000;

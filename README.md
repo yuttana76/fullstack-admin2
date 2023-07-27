@@ -86,3 +86,9 @@ https://www.youtube.com/watch?v=SZOMHHGsATw
 
 
 ##Create AWS ECR
+
+
+##Generate PDF
+https://www.youtube.com/watch?v=PrxF29so6-Y
+node-html-pdf
+ejs
