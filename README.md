@@ -3,6 +3,16 @@ https://github.com/ed-roh/fullstack-admin/blob/master/client/src/scenes/products
 
 Build a MERN React Admin Dashboard
 
+
+##Deploy to render.com
+by google account
+
+backend:
+https://fullstack-admin-backend-galt.onrender.com
+
+Frontend
+https://fullstack-admin-frontend-lhi1.onrender.com
+
 Server  <nodejs>
 \server
 >npm init -y
@@ -63,14 +73,6 @@ https://www.toptal.com/nodejs/secure-rest-api-in-nodejs
 https://github.com/makinhs/rest-api-tutorial/tree/master/users
 
 
-##Deploy to render.com
-by google account
-
-backend:
-https://fullstack-admin-backend-galt.onrender.com
-
-Frontend
-https://fullstack-admin-frontend-lhi1.onrender.com
 
 
 #DOCKER ->AWS ECR
