@@ -1,8 +1,23 @@
+<<<<<<< HEAD
 Thank you EdRoh. for these.
+=======
+## Build a MERN React Admin Dashboard
+
+>>>>>>> 0f90e796d78b6ca7e3af7ef9f1aba421a16c3f57
 https://www.youtube.com/watch?v=0cPCMIuDk2I&t=3303s
 https://github.com/ed-roh/fullstack-admin/blob/master/client/src/scenes/products/index.jsx
 
 Build a MERN React Admin Dashboard
+
+
+### Deploy to render.com
+by google account
+
+backend:
+https://fullstack-admin-backend-galt.onrender.com
+
+Frontend
+https://fullstack-admin-frontend-lhi1.onrender.com
 
 Server  <nodejs>
 \server
@@ -64,6 +79,7 @@ https://www.toptal.com/nodejs/secure-rest-api-in-nodejs
 https://github.com/makinhs/rest-api-tutorial/tree/master/users
 
 
+<<<<<<< HEAD
 ##Deploy to render.com
 by google account
 
