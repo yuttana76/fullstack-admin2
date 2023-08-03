@@ -1,3 +1,4 @@
+Thank you EdRoh. for these.
 https://www.youtube.com/watch?v=0cPCMIuDk2I&t=3303s
 https://github.com/ed-roh/fullstack-admin/blob/master/client/src/scenes/products/index.jsx
 
@@ -68,9 +69,14 @@ by google account
 
 backend:
 https://fullstack-admin-backend-galt.onrender.com
+build command:npm install
+Start command:npm run start
+
 
 Frontend
 https://fullstack-admin-frontend-lhi1.onrender.com
+build command:npm run build
+Publish dir:build
 
 
 #DOCKER ->AWS ECR
@@ -92,3 +98,6 @@ https://www.youtube.com/watch?v=SZOMHHGsATw
 https://www.youtube.com/watch?v=PrxF29so6-Y
 node-html-pdf
 ejs
+
+Deploy your website for free with Cloudflare Pages and GitHub!
+https://www.youtube.com/watch?v=MTc2CTYoszY
